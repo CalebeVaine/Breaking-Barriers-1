@@ -506,8 +506,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 519420032}
   - {fileID: 1314745546}
+  - {fileID: 519420032}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -546,7 +546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2962e1ecc58bf4f419bdb409ef61b589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  valor: 1
 --- !u!114 &381199479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -848,7 +847,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.83, y: 3.4, z: -10}
+  m_LocalPosition: {x: 0.8299999, y: 3.4, z: -10}
   m_LocalScale: {x: 0, y: 0.62877, z: 0.62877}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -981,6 +980,7 @@ GameObject:
   - component: {fileID: 628672689}
   - component: {fileID: 628672688}
   - component: {fileID: 628672687}
+  - component: {fileID: 628672690}
   m_Layer: 0
   m_Name: obtaculos (3)
   m_TagString: Untagged
@@ -1051,7 +1051,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2962e1ecc58bf4f419bdb409ef61b589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  valor: 1
 --- !u!212 &628672689
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1107,6 +1106,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &628672690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628672685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0312cd2a2dbd0e49b0a7cc125d5142f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valor: 1
 --- !u!1 &764806709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,6 +1131,7 @@ GameObject:
   - component: {fileID: 764806713}
   - component: {fileID: 764806712}
   - component: {fileID: 764806711}
+  - component: {fileID: 764806714}
   m_Layer: 0
   m_Name: obtaculos (6)
   m_TagString: Untagged
@@ -1189,7 +1202,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2962e1ecc58bf4f419bdb409ef61b589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  valor: 1
 --- !u!212 &764806713
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1245,6 +1257,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &764806714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764806709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0312cd2a2dbd0e49b0a7cc125d5142f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valor: 1
 --- !u!1 &907192119
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,6 +1282,7 @@ GameObject:
   - component: {fileID: 907192123}
   - component: {fileID: 907192122}
   - component: {fileID: 907192121}
+  - component: {fileID: 907192124}
   m_Layer: 0
   m_Name: obtaculos (4)
   m_TagString: Untagged
@@ -1327,7 +1353,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2962e1ecc58bf4f419bdb409ef61b589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  valor: 1
 --- !u!212 &907192123
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1383,6 +1408,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &907192124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907192119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0312cd2a2dbd0e49b0a7cc125d5142f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valor: 1
 --- !u!1 &943900057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,6 +1433,7 @@ GameObject:
   - component: {fileID: 943900061}
   - component: {fileID: 943900060}
   - component: {fileID: 943900059}
+  - component: {fileID: 943900062}
   m_Layer: 0
   m_Name: obtaculos (2)
   m_TagString: Untagged
@@ -1465,7 +1504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2962e1ecc58bf4f419bdb409ef61b589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  valor: 1
 --- !u!212 &943900061
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1521,6 +1559,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &943900062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943900057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0312cd2a2dbd0e49b0a7cc125d5142f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valor: 1
 --- !u!1 &1152240074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1578,6 +1629,7 @@ GameObject:
   - component: {fileID: 1241206860}
   - component: {fileID: 1241206859}
   - component: {fileID: 1241206858}
+  - component: {fileID: 1241206861}
   m_Layer: 0
   m_Name: obtaculos (7)
   m_TagString: Untagged
@@ -1648,7 +1700,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2962e1ecc58bf4f419bdb409ef61b589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  valor: 1
 --- !u!212 &1241206860
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1704,6 +1755,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1241206861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241206856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0312cd2a2dbd0e49b0a7cc125d5142f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valor: 1
 --- !u!1 &1293237936
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,6 +1780,7 @@ GameObject:
   - component: {fileID: 1293237940}
   - component: {fileID: 1293237939}
   - component: {fileID: 1293237938}
+  - component: {fileID: 1293237941}
   m_Layer: 0
   m_Name: obtaculos (8)
   m_TagString: Untagged
@@ -1786,7 +1851,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2962e1ecc58bf4f419bdb409ef61b589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  valor: 1
 --- !u!212 &1293237940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1842,6 +1906,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1293237941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293237936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0312cd2a2dbd0e49b0a7cc125d5142f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valor: 1
 --- !u!1 &1299213389
 GameObject:
   m_ObjectHideFlags: 0
@@ -2087,6 +2164,7 @@ GameObject:
   - component: {fileID: 1385624431}
   - component: {fileID: 1385624430}
   - component: {fileID: 1385624429}
+  - component: {fileID: 1385624432}
   m_Layer: 0
   m_Name: obtaculos (5)
   m_TagString: Untagged
@@ -2157,7 +2235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2962e1ecc58bf4f419bdb409ef61b589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  valor: 1
 --- !u!212 &1385624431
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2213,6 +2290,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1385624432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385624427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0312cd2a2dbd0e49b0a7cc125d5142f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valor: 1
 --- !u!1 &1539610467
 GameObject:
   m_ObjectHideFlags: 0
@@ -2265,6 +2355,7 @@ GameObject:
   - component: {fileID: 1571451989}
   - component: {fileID: 1571451988}
   - component: {fileID: 1571451987}
+  - component: {fileID: 1571451990}
   m_Layer: 0
   m_Name: obtaculos (1)
   m_TagString: Untagged
@@ -2335,7 +2426,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2962e1ecc58bf4f419bdb409ef61b589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  valor: 1
 --- !u!212 &1571451989
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2391,6 +2481,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1571451990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571451985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0312cd2a2dbd0e49b0a7cc125d5142f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valor: 1
 --- !u!1 &1638566682
 GameObject:
   m_ObjectHideFlags: 0
@@ -2403,6 +2506,7 @@ GameObject:
   - component: {fileID: 1638566685}
   - component: {fileID: 1638566687}
   - component: {fileID: 1638566689}
+  - component: {fileID: 1638566690}
   m_Layer: 0
   m_Name: obtaculos
   m_TagString: Untagged
@@ -2492,7 +2596,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2962e1ecc58bf4f419bdb409ef61b589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  valor: 1
 --- !u!58 &1638566689
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2529,6 +2632,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &1638566690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638566682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0312cd2a2dbd0e49b0a7cc125d5142f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valor: 1
 --- !u!1 &1704490643
 GameObject:
   m_ObjectHideFlags: 0
@@ -8244,12 +8360,12 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 619394802}
+  - {fileID: 112142873}
   - {fileID: 426852469}
   - {fileID: 204477124}
   - {fileID: 492877618}
   - {fileID: 381199476}
   - {fileID: 300931280}
   - {fileID: 1539610468}
-  - {fileID: 112142873}
   - {fileID: 1704490644}
   - {fileID: 545101063}
