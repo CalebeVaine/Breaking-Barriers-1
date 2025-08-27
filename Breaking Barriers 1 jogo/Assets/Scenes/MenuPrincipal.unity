@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 146986061}
   - component: {fileID: 146986060}
   - component: {fileID: 146986059}
+  - component: {fileID: 146986063}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -225,6 +226,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &146986063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146986058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9768ebf4986bef40b87c48ab78458ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cenaJogo: GameScene
 --- !u!1 &278449191
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,8 +273,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.010498047, y: 0}
+  m_SizeDelta: {x: 0.020996, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &278449193
 MonoBehaviour:
@@ -694,6 +708,7 @@ GameObject:
   - component: {fileID: 1719206682}
   - component: {fileID: 1719206681}
   - component: {fileID: 1719206680}
+  - component: {fileID: 1719206683}
   m_Layer: 5
   m_Name: BotaoCreditos
   m_TagString: Untagged
@@ -764,7 +779,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1719206681}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1719206683}
+        m_TargetAssemblyTypeName: MenuPrincipal, Assembly-CSharp
+        m_MethodName: Creditos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1719206681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -803,6 +830,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719206678}
   m_CullTransparentMesh: 1
+--- !u!114 &1719206683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719206678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d27c8b215b4334eb0bb0bc979796e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1743348930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,6 +1126,7 @@ GameObject:
   - component: {fileID: 1995250538}
   - component: {fileID: 1995250537}
   - component: {fileID: 1995250536}
+  - component: {fileID: 1995250539}
   m_Layer: 5
   m_Name: BotaoPlay
   m_TagString: Untagged
@@ -1157,7 +1197,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1995250537}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1995250539}
+        m_TargetAssemblyTypeName: MenuPrincipal, Assembly-CSharp
+        m_MethodName: Jogar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1995250537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1196,6 +1248,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995250534}
   m_CullTransparentMesh: 1
+--- !u!114 &1995250539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995250534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d27c8b215b4334eb0bb0bc979796e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
