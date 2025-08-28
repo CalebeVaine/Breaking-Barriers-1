@@ -5,17 +5,22 @@ public class MenuPrincipal : MonoBehaviour
 {
     public void Jogar()
     {
-        SceneManager.LoadScene("Jogo"); // Nome da cena do jogo
+        SceneManager.LoadScene("Jogo"); 
     }
 
     public void Creditos()
     {
-        SceneManager.LoadScene("Creditos"); // Nome da cena de créditos
+        SceneManager.LoadScene("Creditos"); 
+    }
+
+    public void VoltarMenu()
+    {
+        SceneManager.LoadScene("MenuPrincipal"); 
     }
 
     public void Sair()
     {
-        Application.Quit(); // Fecha o jogo (funciona no build)
-        Debug.Log("Jogo encerrado."); // Mostra no console do editor
+        Application.Quit();
+        Debug.Log("Jogo encerrado.");
     }
 }
