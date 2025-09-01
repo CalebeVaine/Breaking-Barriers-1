@@ -15,7 +15,7 @@ public class MenuPrincipal : MonoBehaviour
 
     public void VoltarMenu()
     {
-        SceneManager.LoadScene("MenuPrincipal"); 
+        SceneManager.LoadScene("Menu"); 
     }
 
     public void Sair()
